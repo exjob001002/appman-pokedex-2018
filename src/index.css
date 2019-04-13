@@ -38,3 +38,59 @@ body {
   top: 50%;
   border: 1px inset #7b7b7b;
 }
+
+.Container{
+  display: flex;
+  flex-direction: column;
+
+}
+.Box{
+  flex:1;
+  text-align: center;
+  font-size:30px;
+  margin:5px;
+}
+
+.Box2{
+  overflow: scroll;
+  height:600px;
+}
+.Box3{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color:#ec5656;
+  height:90px;
+  width:100%
+}
+.D1{
+  margin: 0 auto;
+
+}
+.Modal{
+  width:500px;
+  height:500px;
+  top:50%;
+  left:50%;
+
+}
+
+.cards1{
+  display:flex;
+  width:500px;
+  margin:5px;
+  flex-direction: row;
+  background-color:#f3f4f7;
+}
+
+.cards2{
+  display: inline-block;
+  width:400px;
+  margin:5px;
+  background-color:#f3f4f7;
+}
+
+
+.addcard:hover{
+  color:red;
+}
